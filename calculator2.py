@@ -150,12 +150,6 @@ def result():
             val = str(c)
 
 
-
-
-
-
-
-
 root = tkinter.Tk()
 root.geometry("300x400+300+300")
 root.resizable(0, 0)
@@ -192,6 +186,7 @@ btn1 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_1_isclicked,
 )
 btn1.pack(side=LEFT, expand=True, fill="both")
 btn2 = Button(
@@ -200,6 +195,7 @@ btn2 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_2_isclicked,
 )
 btn2.pack(side=LEFT, expand=True, fill="both")
 btn3 = Button(
@@ -208,6 +204,7 @@ btn3 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_3_isclicked,
 
 )
 btn3.pack(side=LEFT, expand=True, fill="both")
@@ -217,6 +214,7 @@ btnplus = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_plus_clicked,
 )
 btnplus.pack(side=LEFT, expand=True, fill="both")
 
@@ -226,6 +224,7 @@ btn4 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_4_isclicked,
 
 )
 btn4.pack(side=LEFT, expand=True, fill="both")
@@ -235,6 +234,7 @@ btn5 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_5_isclicked,
 
 )
 btn5.pack(side=LEFT, expand=True, fill="both")
@@ -244,6 +244,7 @@ btn6 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_6_isclicked,
 
 )
 btn6.pack(side=LEFT, expand=True, fill="both")
@@ -253,6 +254,7 @@ btnminus = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_minus_clicked,
 
 )
 btnminus.pack(side=LEFT, expand=True, fill="both")
@@ -263,6 +265,7 @@ btn7 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_7_isclicked,
 
 )
 btn7.pack(side=LEFT, expand=True, fill="both")
@@ -272,6 +275,7 @@ btn8 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_8_isclicked,
 
 )
 btn8.pack(side=LEFT, expand=True, fill="both")
@@ -281,6 +285,7 @@ btn9 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_9_isclicked,
 
 )
 btn9.pack(side=LEFT, expand=True, fill="both")
@@ -290,6 +295,7 @@ btnmul = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_mul_clicked,
 
 )
 btnmul.pack(side=LEFT, expand=True, fill="both")
@@ -300,6 +306,7 @@ btnc = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=c_pressed,
 
 )
 btnc.pack(side=LEFT, expand=True, fill="both")
@@ -309,6 +316,7 @@ btn0 = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_0_isclicked,
 
 )
 btn0.pack(side=LEFT, expand=True, fill="both")
@@ -318,6 +326,7 @@ btnequal = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=result,
 )
 btnequal.pack(side=LEFT, expand=True, fill="both")
 btndiv = Button(
@@ -326,6 +335,7 @@ btndiv = Button(
     font=("Verdana", 22),
     relief=GROOVE,
     border=0,
+    command=btn_div_clicked,
 
 )
 btndiv.pack(side=LEFT, expand=True, fill="both")
